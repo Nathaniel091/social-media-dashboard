@@ -1,0 +1,64 @@
+/*media querry for "HEADER"*/
+@media screen and (max-width: 600px) {
+	/*-- HEADER --*/
+	header section[id="wrapper-header"] {
+		width: 80%;
+	}
+	/*heading-text*/
+	div[id="heading-text"] h4{
+		font-size: 4vmin;
+	}
+	div[id="heading-text"] p,
+	div[id="darkMode-toggler-wrapper"] p{
+		font-size: 2.5vmin;
+	}
+}
+
+@media screen and (max-width: 470px){
+	/*heading-text*/
+	div[id="heading-text"] h4{
+		font-size: 4.1vmin;
+	}
+	div[id="heading-text"] p,
+	div[id="darkMode-toggler-wrapper"] p{
+		font-size: 2.6vmin;
+	}
+
+	/*darkMode-toggler-wrapper*/
+	#darkMode-toggler-wrapper #toggler-cont{
+		width: 36px;
+		height: 17px;
+	}
+	#darkMode-toggler-wrapper #toggler-cont #toggler{
+		width: 13px;
+		height: 13px;
+	}
+}
+
+@media screen and (max-width: 375px){
+	/*HEADER*/
+	header section[id="wrapper-header"] {
+		display: block !important;
+		width: 85%;
+	}
+
+	/*heading-text*/
+	div[id="heading-text"] h4{
+		font-size: 5vmin;
+	}
+	div[id="heading-text"] p,
+	div[id="darkMode-toggler-wrapper"] p{
+		font-size: 3.2vmin;
+	}
+
+	/*darkMode-toggler-wrapper*/
+	div[id="darkMode-toggler-wrapper"]{
+		border-top: 1px solid rgba(0, 0, 0, 0.2);
+		justify-content: space-between;
+		padding-top: 10px;
+	}
+}
+
+
+
+/*''*/

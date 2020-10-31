@@ -1,0 +1,17 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+#container {
+  height: 100vh;
+}
+#contTop {
+  height: 28vh;
+  background: rgba(248, 249, 254, 1);
+}
+#contBody {
+  height: 72vh;
+  /*background: rgba(255, 255, 255, 1);*/
+  background: red;
+}
