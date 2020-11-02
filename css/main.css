@@ -5,8 +5,9 @@
 }
 /*--HEADER--*/
 header {
- 	height: 28vh;
+ 	/*height: 28vh;*/
  	/*height: 28%;*/
+ 	height: 150px;
   	background: rgba(248, 249, 254, 1);
 }
 header section[id="wrapper-header"] {
