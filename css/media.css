@@ -5,13 +5,11 @@
 		font-size: 2em;
 	}
 	div[id="heading-text"] p{
-		color: rgba(109, 112, 128, 1);
 		font-size: 1.3em;
 	}
 	/*darkMode-toggler-wrapper*/
 	div[id="darkMode-toggler-wrapper"] p {
-		color: rgba(109, 112, 128, 1);
-		font-size: 1.4em;
+		font-size: 1.5em;
 	}
 	#darkMode-toggler-wrapper #toggler-cont{
 		width: 70px;
@@ -22,66 +20,148 @@
 		height: 28px;
 	}
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
+	/*heading-text*/
+	div[id="heading-text"] h4{
+		font-size: 1.9em;
+	}
+	div[id="heading-text"] p{
+		font-size: 1.3em;
+	}
+	/*darkMode-toggler-wrapper*/
+	#darkMode-toggler-wrapper #toggler-cont{
+		width: 60px;
+		height: 30px;
+	}
+	#darkMode-toggler-wrapper #toggler-cont #toggler{
+		width: 26px;
+		height: 26px;
+	}
+}
+@media screen and (max-width: 750px) {
 	/*-- HEADER --*/
 	header section[id="wrapper-header"] {
 		width: 80%;
 	}
 	/*heading-text*/
 	div[id="heading-text"] h4{
-		font-size: 4vmin;
+		font-size: 1.9em;
 	}
-	div[id="heading-text"] p,
-	div[id="darkMode-toggler-wrapper"] p{
-		font-size: 2.5vmin;
+	div[id="heading-text"] p{
+		font-size: 1.3em;
 	}
-}
-
-@media screen and (max-width: 470px){
-	/*heading-text*/
-	div[id="heading-text"] h4{
-		font-size: 4.1vmin;
-	}
-	div[id="heading-text"] p,
-	div[id="darkMode-toggler-wrapper"] p{
-		font-size: 2.6vmin;
-	}
-
 	/*darkMode-toggler-wrapper*/
 	#darkMode-toggler-wrapper #toggler-cont{
-		width: 36px;
-		height: 17px;
+		width: 60px;
+		height: 30px;
 	}
 	#darkMode-toggler-wrapper #toggler-cont #toggler{
-		width: 13px;
-		height: 13px;
+		width: 26px;
+		height: 26px;
 	}
 }
+@media screen and (max-width: 700px) {
 
-@media screen and (max-width: 375px){
 	/*HEADER*/
 	header section[id="wrapper-header"] {
 		display: block !important;
 		width: 85%;
 	}
-
 	/*heading-text*/
 	div[id="heading-text"] h4{
-		font-size: 5vmin;
+		font-size: 6vmin;
 	}
-	div[id="heading-text"] p,
-	div[id="darkMode-toggler-wrapper"] p{
-		font-size: 3.2vmin;
+	div[id="heading-text"] p{
+		font-size: 3.7vmin;
+	}
+	/*darkMode-toggler-wrapper*/
+	div[id="darkMode-toggler-wrapper"]{
+		border-top: 1px solid rgba(255, 255, 255, 0.5);
+		justify-content: space-between;
+		margin-top: 65px;
+		padding-top: 10px;
+	}
+	div[id="darkMode-toggler-wrapper"] p {
+		font-size: 4vmin;
+	}
+	#darkMode-toggler-wrapper #toggler-cont{
+		width: 70px;
+		height: 33px;
+	}
+	#darkMode-toggler-wrapper #toggler-cont #toggler{
+		width: 29px;
+		height: 28px;
+	}
+
+}
+@media screen and (max-width: 550px) {
+	/*heading-text*/
+	div[id="heading-text"] p{
+		font-size: 1.4em;
 	}
 
 	/*darkMode-toggler-wrapper*/
+	div[id="darkMode-toggler-wrapper"] p {
+		font-size: 1.5em;
+	}
+	#darkMode-toggler-wrapper #toggler-cont{
+		width: 67px;
+		height: 32px;
+	}
+	#darkMode-toggler-wrapper #toggler-cont #toggler{
+		width: 28px;
+		height: 27px;
+	}
+}
+
+@media screen and (max-width: 450px){
+	/*heading-text*/
+	div[id="heading-text"] h4{
+		font-size: 2em;
+	}
+	div[id="heading-text"] p,
+	div[id="darkMode-toggler-wrapper"] p{
+		font-size: 1.3em;
+	}
+
+	/*darkMode-toggler-wrapper*/
+	div[id="darkMode-toggler-wrapper"] p{
+		font-size: 1.6em;
+	}
+}
+
+@media screen and (max-width: 427px){
+	/*HEADER*/
+	/*header section[id="wrapper-header"] {
+		display: block !important;
+		width: 85%;
+	}*/
+
+	/*heading-text*/
+	div[id="heading-text"] h4{
+		font-size: 7vmin;
+	}
+	div[id="heading-text"] p{
+		font-size: 1.1em;
+	}
+
+
+	/*darkMode-toggler-wrapper*/
+	/*darkMode-toggler-wrapper*/
+	div[id="darkMode-toggler-wrapper"] p{
+		font-size: 1.4em;
+	}
 	div[id="darkMode-toggler-wrapper"]{
+		margin-top: 50px;
+	}
+
+	/*div[id="darkMode-toggler-wrapper"]{
 		border-top: 1px solid rgba(0, 0, 0, 0.2);
 		justify-content: space-between;
 		padding-top: 10px;
-	}
+	}*/
 }
 
 
 
-/*''*/
+/*''
