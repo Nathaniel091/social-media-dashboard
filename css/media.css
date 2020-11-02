@@ -35,7 +35,8 @@
 	}
 }
 
-@media screen and (max-width: 375px){
+/*@media screen and (max-width: 375px){*/
+@media screen and (max-width: 414px){
 	/*HEADER*/
 	header section[id="wrapper-header"] {
 		display: block !important;
