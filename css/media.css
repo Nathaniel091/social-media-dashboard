@@ -145,12 +145,11 @@
 
 
 	/*darkMode-toggler-wrapper*/
-	/*darkMode-toggler-wrapper*/
 	div[id="darkMode-toggler-wrapper"] p{
 		font-size: 1.4em;
 	}
 	div[id="darkMode-toggler-wrapper"]{
-		margin-top: 50px;
+		margin-top: 30px;
 	}
 
 	/*div[id="darkMode-toggler-wrapper"]{
