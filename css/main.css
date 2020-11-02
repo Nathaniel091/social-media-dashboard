@@ -15,17 +15,17 @@ header section[id="wrapper-header"] {
 /*heading-text*/
 div[id="heading-text"] h4{
 	font-weight: 800;
-	opacity: 0.7;
+	opacity: 0.8;
 }
 div[id="heading-text"] p{
 	color: rgba(109, 112, 128, 1);
-	font-size: 0.85em;
+	font-size: 0.9em;
 	font-weight: 600;
 }
 /*darkMode-toggler-wrapper*/
 div[id="darkMode-toggler-wrapper"] p {
 	color: rgba(109, 112, 128, 1);
-	font-size: 0.9em;
+	font-size: 1.1em;
 	font-weight: 600;
 }
 #darkMode-toggler-wrapper #toggler-cont{

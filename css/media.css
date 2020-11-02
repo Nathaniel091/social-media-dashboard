@@ -1,4 +1,27 @@
 /*media querry for "HEADER"*/
+@media screen and (max-width: 1024px) {
+	/*heading-text*/
+	div[id="heading-text"] h4{
+		font-size: 2em;
+	}
+	div[id="heading-text"] p{
+		color: rgba(109, 112, 128, 1);
+		font-size: 1.3em;
+	}
+	/*darkMode-toggler-wrapper*/
+	div[id="darkMode-toggler-wrapper"] p {
+		color: rgba(109, 112, 128, 1);
+		font-size: 1.4em;
+	}
+	#darkMode-toggler-wrapper #toggler-cont{
+		width: 70px;
+		height: 32px;
+	}
+	#darkMode-toggler-wrapper #toggler-cont #toggler{
+		width: 30px;
+		height: 28px;
+	}
+}
 @media screen and (max-width: 600px) {
 	/*-- HEADER --*/
 	header section[id="wrapper-header"] {
@@ -35,8 +58,7 @@
 	}
 }
 
-/*@media screen and (max-width: 375px){*/
-@media screen and (max-width: 414px){
+@media screen and (max-width: 375px){
 	/*HEADER*/
 	header section[id="wrapper-header"] {
 		display: block !important;
