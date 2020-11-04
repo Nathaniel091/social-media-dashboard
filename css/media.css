@@ -1,3 +1,7 @@
+				
+					/*HEADER*/
+
+/*768px*/
 @media screen and (max-width:768px) {
 	/*darkMode-toggler-wrapper*/
 	div[id="darkMode-toggler-wrapper"] p{
@@ -12,14 +16,22 @@
 		height: 25px;
 	}
 }
-/*@media screen and (max-width:600px) {
-	header section[id="wrapper-header"]{
+/*600px*/
+@media screen and (max-width:600px) {
+	header #wrapper-header{
 		display: block !important;
-	}*/
+		color: red;
+	}
 	/*darkMode-toggler-wrapper*/
-	/*div[id="darkMode-toggler-wrapper"] {
+	div[id="darkMode-toggler-wrapper"] {
 		border-top: 2px solid rgb(225, 225, 225, 1);
 		padding-top: 25px;
 		justify-content: space-between;
 	}
-}*/
+}
+
+
+
+
+
+					/*MAIN

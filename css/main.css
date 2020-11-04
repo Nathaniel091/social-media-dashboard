@@ -12,7 +12,7 @@
 header {
 	background: rgb(248, 249, 254);
 }
-header section[id="wrapper-header"] {
+header #wrapper-header {
 	width: 80%;
 }
 /*heading-text*/
