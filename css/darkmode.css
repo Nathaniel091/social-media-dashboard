@@ -11,6 +11,10 @@ div[id="heading-text"] p{
 	opacity: 	0.8;
 }
 /*darkMode-toggler-wrapper*/
+div[id="darkMode-toggler-wrapper"] p {
+	color: white;
+	opacity: 0.8;
+}
 div[id="darkMode-toggler-wrapper"] #toggler-cont{
 	position: relative;
 	background: linear-gradient(to right, rgb(58, 154, 219), rgb(60, 206, 143));
