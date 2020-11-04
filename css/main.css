@@ -28,7 +28,7 @@ div[id="heading-text"] p{
 
 /*darkMode-toggler-wrapper*/
 div[id="darkMode-toggler-wrapper"] p {
-	font-size: 0.8em;
+	/*font-size: 0.8em;*/
 	font-weight: bold;
 	opacity: 	0.5;
 }

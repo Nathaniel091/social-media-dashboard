@@ -1,5 +1,11 @@
-@media screen and (max-width: 600px) {
-	#wrapper-header{
-		display: block !important;
+@media screen and (max-width:768px) {
+	/*darkMode-toggler-wrapper*/
+	div[id="darkMode-toggler-wrapper"] #toggler-cont{
+		width: 65px;
+		height: 31px;
+	}
+	div[id="darkMode-toggler-wrapper"] #toggler-cont #toggler{
+		width: 27px;
+		height: 27px;
 	}
 }
