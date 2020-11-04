@@ -16,9 +16,12 @@ header #wrapper-header {
 	width: 80%;
 }
 /*heading-text*/
+div[id="heading-text"] h4::first-letter{
+	font-size: 1.2em;
+}
 div[id="heading-text"] h4{
 	font-weight: 	bold;
-	opacity: 0.8;	
+	opacity: 0.7;	
 }
 div[id="heading-text"] p{
 	font-size: 0.8em;

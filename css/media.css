@@ -2,11 +2,11 @@
 	/*darkMode-toggler-wrapper*/
 	div[id="darkMode-toggler-wrapper"] #toggler-cont{
 		width: 65px;
-		height: 31px;
+		height: 30px;
 	}
 	div[id="darkMode-toggler-wrapper"] #toggler-cont #toggler{
-		width: 27px;
-		height: 27px;
+		width: 25px;
+		height: 25px;
 	}
 }
 /*#wrapper-header{
