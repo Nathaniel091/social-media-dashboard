@@ -49,18 +49,8 @@ div[id="darkMode-toggler-wrapper"] #toggler-cont #toggler{
 	border-radius: inherit;
 	background: white;
 	margin: 2px 3px auto 3px;
+	cursor: pointer;
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
 
