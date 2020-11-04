@@ -1,38 +1,3 @@
-/*--HEADER--*/
 header {
-	background: rgba(32, 34, 47, 1);
+	background: rgb(32, 34, 47);
 }
-/*heading-text*/
-div[id="heading-text"] h4,
-div[id="heading-text"] p{
-	color: white;
-	opacity: 0.8;
-}
-/*darkMode-toggler-wrapper*/
-div[id="darkMode-toggler-wrapper"] #toggler-cont{
-	position: relative;
-	background: linear-gradient(to right, rgb(63, 208, 145), rgb(78, 150, 194)) !important;
-}
-#darkMode-toggler-wrapper p {
-	color: white;
-	opacity: 0.8;
-}
-#darkMode-toggler-wrapper #toggler-cont #toggler{
-	position: absolute;
-	right: 0;
-	background: rgba(52, 58, 86, 1);
-	
-}
-
-/*media querry for "HEADER"*/
-@media screen and (max-width: 375px){
-	/*darkMode-toggler-wrapper*/
-	div[id="darkMode-toggler-wrapper"]{
-		widows: 100%;
-		border-top: 2px solid rgba(225, 225, 225, 0.5);
-	}
-}
-
-
-
-/*--MAIN--*/

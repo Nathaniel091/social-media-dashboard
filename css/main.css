@@ -1,166 +1,51 @@
+
+:root {
+	--For-Tfollowers-And-DarkMode: .8em;
+}
 * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 }
-/*--HEADER--*/
+
+						/*HEADER*/
 header {
- 	/*height: 28vh;*/
- 	/*height: 28%;*/
- 	/*height: 200px;*/
- 	height: auto;
-  	background: rgba(248, 249, 254, 1);
+	background: rgb(248, 249, 254);
 }
-header section[id="wrapper-header"] {
-	width: 75%;
+header #wrapper-header {
+	width: 80%;
 }
 /*heading-text*/
 div[id="heading-text"] h4{
-	font-weight: 800;
-	opacity: 0.8;
+	font-weight: 	bold;
+	opacity: 0.8;	
 }
 div[id="heading-text"] p{
-	color: rgba(109, 112, 128, 1);
-	font-size: 0.9em;
-	font-weight: 600;
+	font-size: 0.8em;
+	font-weight: bold;
+	opacity: 	0.5;
 }
+
 /*darkMode-toggler-wrapper*/
 div[id="darkMode-toggler-wrapper"] p {
-	color: rgba(109, 112, 128, 1);
-	font-size: 1.1em;
-	font-weight: 600;
+	font-size: 0.8em;
+	font-weight: bold;
+	opacity: 	0.5;
 }
-#darkMode-toggler-wrapper #toggler-cont{
-	display: block;
-	width: 40px;
-	height: 19px;
+div[id="darkMode-toggler-wrapper"] #toggler-cont{
+	display: inline-block;
+	width: 43px;
+	height: 20px;
+	background: rgb(174, 178, 203);
 	border-radius: 1em;
-	cursor: pointer;
-	background: rgba(174, 178, 203, 1);
 }
-#darkMode-toggler-wrapper #toggler-cont #toggler{
-	display: block;
-	margin: 2px 3px auto 3px;
-	width: 15px;
-	height: 15px;
+div[id="darkMode-toggler-wrapper"] #toggler-cont #toggler{
+	display: inherit;
+	width: 17px;
+	height: 16px;
 	border-radius: inherit;
 	background: white;
-}
-
-
-
-/*--MAIN--*/
-main {
-  	height: 72vh;
-  	/*height: 60%;*/
-}
-main section[id="wrapper-main"] {
-	width: 75%;
-}
-/*social-media-details*/
-div[id="social-media-details"] .social-media-details-cont{
-	width: 23%;
-	height: 200px;
-	padding-top: 20px;
-	background: rgb(240, 243, 250);
-	border-radius: 5px;
-	-webkit-transition: background .2s linear;
-	   -moz-transition: background .2s linear;
-	    -ms-transition: background .2s linear;
-	     -o-transition: background .2s linear;
-	        transition: background .2s linear;
-}
-div[id="social-media-details"] .social-media-details-cont:hover {
-	background: rgb(224, 226, 239);
-}
-
-/*styling the border-top*/
-/*border-top facebook and twitter*/
-#social-media-details #facebook-details,
-#social-media-details #tweeter-details {
-	border-top: 4px solid rgb(29, 161, 243);
-}
-/*-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! --*/
-/*border-top instagram*/
-#social-media-details #instagram-details {
- 	background-image: linear-gradient(65deg, yellow, red, orange, pink, purple 97%);
- 	background-size: 100% 4px;
- 	background-repeat: no-repeat;
-}
-/*-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! --*/
-/*border-top youTube*/
-#social-media-details #youtube-details{
-	border-top: 4px solid rgb(195, 0, 40);
-}
-
-/*1st & last span tags inside every ".social-media-details-cont"*/
-div[id="social-media-details"] .social-media-details-cont span:first-child{
-	display: flex;
-	justify-content: center;
-}
-div[id="social-media-details"] .social-media-details-cont span:last-child {
-	display: flex;
-	justify-content: center;
-	font-size: 0.7em;
-}
-
-/*the 'i' elements inside span tags*/
-div[id="social-media-details"] .social-media-details-cont span:first-child i {
-	margin-top: 2px;
-	margin-right: 3px;
-	font-size: 1.3em;
-}
-/*facebook-logo*/
-div[id="social-media-details"] .social-media-details-cont span:first-child #facebook {
-	color: rgb(21, 144, 248);
-}
-/*twitter-logo*/
-div[id="social-media-details"] .social-media-details-cont span:first-child #twitter {
-	color: rgb(32, 162, 241);
-}
-/*instagram-logo*/
-div[id="social-media-details"] .social-media-details-cont span:first-child #instagram {
-    background-image: linear-gradient(65deg, yellow, red, orange, pink, purple 97%);
-    background-size: 100%;
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    -webkit-text-fill-color: transparent; 
-    -moz-text-fill-color: transparent;
-/*YouTube-logo*/
-div[id="social-media-details"] .social-media-details-cont span:first-child #youtube {
-	color: rgb(195, 0, 40);	
-}
-
-div[id="social-media-details"] .social-media-details-cont span:first-child p {
-	font-size: 0.8em;
-	font-weight: 600;
-}
-
-
-
-
-
-div[id="social-media-details"] .social-media-details-cont span:last-child i {
-	margin-top: 5px;
-	margin-right: 3px;
-	color: rgba(54, 164, 135, 1);
-}
-
-/*'i' element in the last span tag for youTube*/
-div[id="social-media-details"] #youtube-details span:last-child i {
-	margin-top: -2px;
-	color: rgba(200, 102, 117, 1);	
-}
-
-/*every 'p' elements inside the last span tags*/
-div[id="social-media-details"] .social-media-details-cont span:last-child p {
-	font-weight: 700;
-	color: rgba(54, 164, 135, 1);
-}
-/*'p' element in the last span tag for youTube*/
-div[id="social-media-details"] #youtube-details span:last-child p {
-	color: rgba(200, 102, 117, 1);
-	color: rgb(195, 0, 40);
+	margin: 2px 3px auto 3px;
 }
 
 
@@ -172,19 +57,10 @@ div[id="social-media-details"] #youtube-details span:last-child p {
 
 
 
-/*media querry for "MAIN"*/
-@media screen and (max-width: 600px) {
-	main #wrapper-main {
-		width: 80%;
-	}	
-}
 
 
-/*initialise this repo*/     /*write PIN report*/
-/*initialise this repo*/     /*write PIN report*/
-/*initialise this repo*/     /*write PIN report*/
-/*initialise this repo*/     /*write PIN report*/
-/*initialise this repo*/     /*write PIN report*/
-/*initialise this repo*/     /*write PIN report*/
-/*initialise this repo*/     /*write PIN report*/
-/*initialise this repo*/     /*write PIN report*/
+
+
+
+
+						/*MAIN*/
