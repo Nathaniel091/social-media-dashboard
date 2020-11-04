@@ -1,5 +1,8 @@
 @media screen and (max-width:768px) {
 	/*darkMode-toggler-wrapper*/
+	div[id="darkMode-toggler-wrapper"] p{
+		margin-top: 3px;
+	}
 	div[id="darkMode-toggler-wrapper"] #toggler-cont{
 		width: 63px;
 		height: 29px;
@@ -9,6 +12,14 @@
 		height: 25px;
 	}
 }
-/*#wrapper-header{
+/*@media screen and (max-width:600px) {
+	header section[id="wrapper-header"]{
 		display: block !important;
 	}*/
+	/*darkMode-toggler-wrapper*/
+	/*div[id="darkMode-toggler-wrapper"] {
+		border-top: 2px solid rgb(225, 225, 225, 1);
+		padding-top: 25px;
+		justify-content: space-between;
+	}
+}*/
