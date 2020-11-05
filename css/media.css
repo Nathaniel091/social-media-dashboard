@@ -21,21 +21,30 @@
 	header #wrapper-header{
 		display: block !important;
 	}
+
+
+
+
+	/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 	/*darkMode-toggler-wrapper*/
 	div[id="darkMode-toggler-wrapper"] {
-		border-top: 1px solid rgb(0, 0, 0, 0.4);
+		-webkit-border-top: 1px solid rgb(0, 0, 0, 0.4);
+		   -moz-border-top: 1px solid rgb(0, 0, 0, 0.4);
+		        border-top: 1px solid rgb(0, 0, 0, 0.4);
 		padding-top: 25px;
 		justify-content: space-between;
 	}
-
-
-
-	/*!!!!!!!!!!!!!!!!!!!!!*/
-	header #wrapper-header {
-		height: 300px;
+}
+@media screen and (max-width: 450px) {
+	/*HEADER*/
+	header #wrapper-header{
+		width: 85%;
+	}
+	/*heading-text*/
+	div[id="heading-text"] h4{
+		font-size: 7vmin;
 	}
 }
-
 
 
 

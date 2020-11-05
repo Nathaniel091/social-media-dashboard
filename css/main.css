@@ -14,7 +14,6 @@ header {
 }
 header #wrapper-header {
 	width: 80%;
-	height: 200px;
 }
 /*heading-text*/
 div[id="heading-text"] h4::first-letter{
@@ -51,9 +50,6 @@ div[id="darkMode-toggler-wrapper"] #toggler-cont #toggler{
 	margin: 2px 3px auto 3px;
 	cursor: pointer;
 }
-/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
-
-/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 
 
 
