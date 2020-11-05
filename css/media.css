@@ -28,9 +28,13 @@
 	/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 	/*darkMode-toggler-wrapper*/
 	div[id="darkMode-toggler-wrapper"] {
-		-webkit-border-top: 1px solid rgb(0, 0, 0, 0.4);
+		/*-webkit-border-top: 1px solid rgb(0, 0, 0, 0.4);
 		   -moz-border-top: 1px solid rgb(0, 0, 0, 0.4);
-		        border-top: 1px solid rgb(0, 0, 0, 0.4);
+		        border-top: 1px solid rgb(0, 0, 0, 0.4);*/
+
+		   -webkit-border-top: thin solid #000;
+		   -moz-border-top: thin solid #000;
+		        border-top: thin solid #000;
 		padding-top: 25px;
 		justify-content: space-between;
 	}
