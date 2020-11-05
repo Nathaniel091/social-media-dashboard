@@ -27,6 +27,13 @@
 		padding-top: 25px;
 		justify-content: space-between;
 	}
+
+
+
+	/*!!!!!!!!!!!!!!!!!!!!!*/
+	header #wrapper-header {
+		height: 300px;
+	}
 }
 
 

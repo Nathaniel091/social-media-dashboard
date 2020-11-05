@@ -1,5 +1,4 @@
-// // let toggler = document.querySelector("#toggler");
-// // toggler.className = "white-mode";
+// darkmode functionality
 const darkMode = () =>{
 	let headTag = document.head;
 	let linkTag = document.createElement("link");
@@ -7,7 +6,9 @@ const darkMode = () =>{
 	linkTag.setAttribute("rel", "stylesheet");
 	linkTag.setAttribute("href", "css/darkmode.css");
 	headTag.appendChild(linkTag);
-	console.log(linkTag)
-}
+
+	toggler.classList.add('dark')
+	console.log(toggler)
+};
+// onclick call the darkmode function
 document.getElementById("toggler").addEventListener("click", darkMode);
-// // <link rel="stylesheet" type="text/css" href="./css/darkmode.css">

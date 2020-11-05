@@ -23,7 +23,6 @@ div[id="darkMode-toggler-wrapper"] #toggler-cont #toggler{
 	position: absolute;
 	right: 0;
 	background: rgb(32, 34, 47);
-	cursor: pointer;
 }
 /*600px*/
 @media screen and (max-width:600px) {
