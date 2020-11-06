@@ -43,7 +43,7 @@
 	}
 	/*!!!!!!!!!!!!!!*/
 	div[id="darkMode-toggler-wrapper"] #toggler-cont #toggler{
-		background: green;
+		background: brown;
 	}
 }
 @media screen and (max-width: 450px) {
