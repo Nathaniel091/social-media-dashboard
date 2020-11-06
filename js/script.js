@@ -12,5 +12,13 @@ const darkMode = () =>{
 
 	console.log(toggler)
 };
-// onclick call the darkmode function
-document.getElementById("toggler").addEventListener("click", darkMode);
+// onclick, call the darkmode function
+// document.getElementById("toggler").addEventListener("click", darkMode);
+
+// var x = document.getElementById("myBtn");
+var toggler = document.getElementById("toggler");
+if (toggler.addEventListener) {
+  toggler.addEventListener("click", darkMode);
+} else if (toggler.attachEvent) {
+  toggler.attachEvent("onclick", darkMode);
+}
