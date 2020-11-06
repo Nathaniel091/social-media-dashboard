@@ -1,5 +1,6 @@
 // darkmode functionality
-const darkMode = () =>{
+// const darkMode = () =>{
+function darkMode(){
 	alert('Click Event Now Working')
 	let headTag = document.head;
 	let linkTag = document.createElement("link");
