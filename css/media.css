@@ -48,7 +48,7 @@
 @media screen and (max-width: 450px) {
 	/*HEADER*/
 	header #wrapper-header{
-		/*width: 85%;*/
+		width: 85%;
 	}
 	/*heading-text*/
 	div[id="heading-text"] h4{
