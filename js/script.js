@@ -1,5 +1,6 @@
 // darkmode functionality
 const darkMode = () =>{
+	alert('Click Event Now Working')
 	let headTag = document.head;
 	let linkTag = document.createElement("link");
 
@@ -7,7 +8,8 @@ const darkMode = () =>{
 	linkTag.setAttribute("href", "css/darkmode.css");
 	headTag.appendChild(linkTag);
 
-	toggler.classList.add('dark')
+	toggler.classList.add('dark');
+
 	console.log(toggler)
 };
 // onclick call the darkmode function

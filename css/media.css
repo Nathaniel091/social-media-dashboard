@@ -41,8 +41,9 @@
 		padding-top: 25px;
 		justify-content: space-between;
 	}
+	/*!!!!!!!!!!!!!!*/
 	div[id="darkMode-toggler-wrapper"] #toggler-cont #toggler{
-		background: red;
+		background: green;
 	}
 }
 @media screen and (max-width: 450px) {
