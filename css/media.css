@@ -34,7 +34,7 @@
 	*/
 	/*darkMode-toggler-wrapper*/
 	div[id="darkMode-toggler-wrapper"] {
-		border-top: thin solid rgb(0, 0, 0, 0.1);
+		border-top: 2px solid rgb(0, 0, 0, 0.9);
 
 		padding-top: 25px;
 		justify-content: space-between;
