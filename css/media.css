@@ -26,9 +26,15 @@
 
 
 	/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+	/*
+		completely fix the thin(1px) chrome problem 
+		and reduce the opacit of the line
+
+		and then the toggle functionality for chrome
+	*/
 	/*darkMode-toggler-wrapper*/
 	div[id="darkMode-toggler-wrapper"] {
-		border-top: thin solid rgb(0, 0, 0, 0.4);
+		border-top: 2px solid rgb(0, 0, 0, 0.4);
 
 		padding-top: 25px;
 		justify-content: space-between;
