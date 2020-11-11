@@ -83,6 +83,9 @@ div[id="instagram-details"]:hover{
 
 
 				/*OVERVIEW - TODAY*/
+div[id="overview-today-wrapper"] > h5 {
+	color: white;
+}
 /*
 DarkMode Styling For:
 immediate children of Facebook, Instagram, Tweeter, Youtube containers (i.e: 'div' element)
