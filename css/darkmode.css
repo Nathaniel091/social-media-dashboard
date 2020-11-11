@@ -1,6 +1,9 @@
-/*HEADER*/
+						/*HEADER*/
 header {
 	background: rgb(32, 34, 47);
+}
+header #wrapper-header {
+	width: 80%;
 }
 /*heading-text*/
 div[id="heading-text"]{
@@ -31,3 +34,111 @@ div[id="darkMode-toggler-wrapper"] #toggler-cont #toggler{
 		border-top: thin solid rgb(255, 255, 255, .8);
 	}
 }
+
+
+
+
+
+						/*MAIN*/
+main {
+	background: rgb(29, 32, 41);
+}
+				/*SOCIAL-MEDIA-DETAILS*/
+/*this is for all the '.social-media-details-cont' divs*/
+/*GENERAL STYLINGS*/
+.social-media-details-cont {
+	background: rgb(37, 43, 67);
+}
+.social-media-details-cont:hover{
+	background: rgb(51, 58, 86);
+}
+
+/*for all the 1st span tag in all '.social-media-details-cont' div*/
+/*-- social-app icon and name*/
+.social-media-details-cont span:first-child p {
+	color: white;
+	opacity: 0.6;
+}
+
+/*for all the 2nd span tag in all '.social-media-details-cont' div*/
+/*-- number of followers*/
+.social-media-details-cont span:nth-child(2) h1{
+	color: white;
+}
+.social-media-details-cont span:nth-child(2) p{
+	color: white;
+}
+
+/*SPECIAL STYLINGS*/
+/*-- instagram-details*/
+div[id="instagram-details"]:hover{
+	background: rgb(51, 58, 86);
+	background-image: linear-gradient(to right, rgb(252, 193, 107), rgb(226, 74, 149));
+	background-size:  100% 3px; 
+	background-repeat: no-repeat;
+}
+
+
+
+
+
+				/*OVERVIEW - TODAY*/
+/*
+DarkMode Styling For:
+immediate children of Facebook, Instagram, Tweeter, Youtube containers (i.e: 'div' element)
+*/
+div[id="overview-today"] .overview-today-cont div{
+	background: rgb(37, 43, 67);
+}
+div[id="overview-today"] .overview-today-cont div:hover{
+	background: rgb(51, 58, 86);
+	cursor: pointer;
+}
+
+
+/*
+DArkMode Styling For:
+the content of every grand-child element of Facebook, Instagram, Tweeter, Youtube
+*/
+/*contents in the first span tags*/
+div[id="overview-today"] .overview-today-cont div span:first-child p{
+	color: white;
+	opacity: 0.6;
+}
+/*contents in the last span tags*/
+div[id="overview-today"] .overview-today-cont div span:last-child h3{
+	color: white;
+}
+
+
+
+
+
+						/*FOOTER*/
+footer {
+	background: rgb(32, 34, 47);
+}
+footer section[id="credit"] p{
+	background: linear-gradient(to right, rgb(32, 34, 47), rgba(51, 58, 86), rgb(32, 34, 47));
+	color: white;
+	opacity: 0.8;
+	margin-bottom: 15px;
+}
+footer section[id="credit"] small{
+	background: linear-gradient(to right, rgb(32, 34, 47), rgb(240, 243, 250), rgb(32, 34, 47));
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+/*links*/
+footer section[id="credit"] p > a,
+footer section[id="credit"] small > a{
+	color: inherit;
+	text-decoration: underline;
+}
+footer section[id="credit"] p > a:hover,
+footer section[id="credit"] small > a:hover{
+	text-decoration: none;
+}
+
+/*----- The End -----*/

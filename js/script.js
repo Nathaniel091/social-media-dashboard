@@ -1,7 +1,16 @@
-// darkmode functionality
+
+/*
+	1) This script is not working in chrome mobile (for tablet)
+	2) The darkmode button isn't toggling
+	Remember to fix these
+*/
+
+
+
+// darkmode function
+
 // const darkMode = () =>{
 function darkMode(){
-	alert('Click Event Now Working')
 	let headTag = document.head;
 	let linkTag = document.createElement("link");
 
@@ -11,7 +20,7 @@ function darkMode(){
 
 	toggler.classList.add('dark');
 
-	console.log(toggler)
+	// console.log(toggler);
 };
 // onclick, call the darkmode function
 // document.getElementById("toggler").addEventListener("click", darkMode);

@@ -18,19 +18,20 @@
 }
 /*600px*/
 @media screen and (max-width:600px) {
-	header #wrapper-header{
+	
+	header #wrapper-header {
+		height: 270px;
 		display: block !important;
 	}
 
 
 
 
-	/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
-	/*
-		completely fix the thin(1px) chrome problem 
-		and reduce the opacit of the line
 
-		and then the toggle functionality for chrome
+	/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-----------------------------*/
+	/*
+		This styling does not work in chrome mobile (for tablet)
+		Remember to fix that 
 	*/
 	/*darkMode-toggler-wrapper*/
 	div[id="darkMode-toggler-wrapper"] {
@@ -41,12 +42,22 @@
 		padding-top: 25px;
 		justify-content: space-between;
 	}
-	/*!!!!!!!!!!!!!!*/
-	div[id="darkMode-toggler-wrapper"] #toggler-cont #toggler{
+	/*div[id="darkMode-toggler-wrapper"] #toggler-cont #toggler{
 		background: skyblue;
-	}
+	}*/
+	/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!---------------------------*/
+
+
+
+
+
+
+
+
+
+	
 }
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 480px) {
 	/*HEADER*/
 	header #wrapper-header{
 		width: 85%;
@@ -60,4 +71,53 @@
 
 
 
-					/*MAIN
+
+					/*MAIN*/
+				/* SOCIAL-MEDIA-DETAILS*/
+@media screen and (max-width: 790px) {
+	/*social-media-details*/
+	div[id="social-media-details"]{
+		flex-wrap: wrap;
+	}
+	.social-media-details-cont {
+		width: 47%;
+		margin-bottom: 50px;
+	}
+}
+@media screen and (max-width: 600px) {
+	main #wrapper-main {
+		top: -60px;
+	}
+}
+@media screen and (max-width: 500px) {
+	/*social-media-details*/
+	.social-media-details-cont {
+		width: 100%;
+		justify-content: space-around;
+		margin: auto;
+		margin-bottom: 40px;
+	}
+}
+
+
+
+
+				/*OVERVIEW - TODAY*/
+@media screen and (max-width: 900px) {
+	div[id="overview-today"] .overview-today-cont{
+		width: 100%;
+	}
+}
+@media screen and (max-width: 480px) {
+	div[id="overview-today"] .overview-today-cont{
+		display: block !important;
+	}
+	div[id="overview-today"] .overview-today-cont div{
+		width: 100%;
+	}
+	div[id="overview-today"] .overview-today-cont div:first-child{
+		margin-bottom: 20px;
+	}
+}
+
+/*----- The End -----*/
