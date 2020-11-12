@@ -31,13 +31,20 @@ div[id="darkMode-toggler-wrapper"] p {
 	opacity: 	0.5;
 }
 div[id="darkMode-toggler-wrapper"] #toggler-cont{
+	position: relative;
 	display: inline-block;
 	width: 43px;
 	height: 20px;
 	background: rgb(174, 178, 203);
 	border-radius: 1em;
 }
-div[id="darkMode-toggler-wrapper"] #toggler-cont #toggler{
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!----------------------*/
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!----------------------*/
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!----------------------*/
+/*
+Do not erase these classes, ".toggler" & ".darkmode"!
+They are responsible for the dark & white mode functionality*/
+.toggler{
 	display: inherit;
 	width: 17px;
 	height: 16px;
@@ -46,6 +53,14 @@ div[id="darkMode-toggler-wrapper"] #toggler-cont #toggler{
 	margin: 2px 3px auto 3px;
 	cursor: pointer;
 }
+.darkmode {
+	position: absolute;
+	right: 0;
+	background: rgb(32, 34, 47);
+}
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!----------------------*/
+
+
 
 
 

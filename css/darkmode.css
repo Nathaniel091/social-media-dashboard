@@ -18,15 +18,19 @@ div[id="darkMode-toggler-wrapper"] p {
 	color: white;
 	opacity: 0.8;
 }
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!--------------------------*/
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!--------------------------*/
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!--------------------------*/
+/*still under construction*/
 div[id="darkMode-toggler-wrapper"] #toggler-cont{
-	position: relative;
 	background: linear-gradient(to right, rgb(58, 154, 219), rgb(60, 206, 143));
 }
-div[id="darkMode-toggler-wrapper"] #toggler-cont #toggler{
+/*div[id="darkMode-toggler-wrapper"] #toggler-cont #toggler{
 	position: absolute;
 	right: 0;
 	background: rgb(32, 34, 47);
-}
+}*/
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-------------------*/
 /*600px*/
 @media screen and (max-width:600px) {
 	/*darkMode-toggler-wrapper*/
