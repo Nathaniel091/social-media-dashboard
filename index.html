@@ -23,8 +23,8 @@
 	<!-- Media.css -->
 	<link rel="stylesheet" type="text/css" href="css/media.css">
 	<!-- Darkmode.css -->
-	<!-- <link rel="stylesheet" type="text/css" href="css/darkmode.css"> -->
-	<link id="darkModeLink" rel="stylesheet" type="text/css" href="">
+		<!-- This stylesheet is working with the javaScript file.(Same reason it has an ID) -->
+	<link id="darkModeLinkTag" rel="stylesheet" type="text/css" href="">
 </head>
 
 <body class="">
@@ -303,8 +303,22 @@
 			</p>
 
 			<small id="" class="">
-				&#60;/&#62; With <i class="fa fa-heart"></i> By <a href="https://twitter.com/nathaniel_web" target="_blank">Nathaniel</a> 
+				&#60;/&#62; With <i class="fa fa-heart"></i> By <span id="myContact" class="">Nathaniel</span>
 			</small>
+
+			<!-- myContactDetails -->
+			<!-- This div has a default display = "none" -->
+			<div id="myContactDetails" class="d-none">
+				<!-- github -->
+				<a href="https://github.com/nathaniel091" target="_blank">
+					<i class="fab fa-github"></i> Github
+				</a>
+
+				<!-- twitter -->
+				<a href="https://twitter.com/nathaniel_web" target="_blank">
+					<i id="" class="fab fa-twitter"></i> Twitter
+				</a>
+			</div>
 		</section>
 	</footer>
 

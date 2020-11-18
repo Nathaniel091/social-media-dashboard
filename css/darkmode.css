@@ -18,19 +18,10 @@ div[id="darkMode-toggler-wrapper"] p {
 	color: white;
 	opacity: 0.8;
 }
-/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!--------------------------*/
-/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!--------------------------*/
-/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!--------------------------*/
-/*still under construction*/
 div[id="darkMode-toggler-wrapper"] #toggler-cont{
 	background: linear-gradient(to right, rgb(58, 154, 219), rgb(60, 206, 143));
 }
-/*div[id="darkMode-toggler-wrapper"] #toggler-cont #toggler{
-	position: absolute;
-	right: 0;
-	background: rgb(32, 34, 47);
-}*/
-/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-------------------*/
+
 /*600px*/
 @media screen and (max-width:600px) {
 	/*darkMode-toggler-wrapper*/
@@ -139,13 +130,14 @@ footer section[id="credit"] small{
 
 /*links*/
 footer section[id="credit"] p > a,
-footer section[id="credit"] small > a{
+footer section[id="credit"] small > span{
 	color: inherit;
 	text-decoration: underline;
 }
 footer section[id="credit"] p > a:hover,
-footer section[id="credit"] small > a:hover{
+footer section[id="credit"] small > span:hover{
 	text-decoration: none;
+	color: initial;
 }
 
 /*----- The End -----*/

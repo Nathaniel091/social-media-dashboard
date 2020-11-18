@@ -40,7 +40,6 @@ div[id="darkMode-toggler-wrapper"] #toggler-cont{
 }
 /*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!----------------------*/
 /*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!----------------------*/
-/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!----------------------*/
 /*
 Do not erase these classes, ".toggler" & ".darkmode"!
 They are responsible for the dark & white mode functionality*/
@@ -312,7 +311,7 @@ footer {
 }
 				/*CREDIT*/
 footer section[id="credit"] {
-	
+	position: relative;
 }
 footer section[id="credit"] p{
 	background: linear-gradient(to right, rgb(240, 243, 250), rgb(225, 227, 240), rgb(240, 243, 250));
@@ -326,5 +325,65 @@ footer section[id="credit"] small{
 }
 footer section[id="credit"] small i{
 	font-size: 1.2em;
+}
+footer section[id="credit"] small span {
+    color: rgb(0, 123, 255);
+}
+footer section[id="credit"] small span:hover {
+	text-decoration: underline;
+	color: rgb(24, 101, 186);
+	cursor: pointer;
+}
+
+
+/*myContactDetails*/
+/*Donot delete the classes below*, they're being use by the JS file*/
+/*For light-mode*/
+.myContactDetailsLight{
+	position: absolute;
+	bottom: 60px;
+	display: inline-block !important;
+	background: rgb(225, 227, 240);
+
+	border-radius: 5px;
+	border-bottom-left-radius: initial;
+	border-top-left-radius: 40px;
+	border-bottom-right-radius: 40px;
+	padding: 20px;
+	height: 130px;
+
+}
+/*For dark-mode */
+.myContactDetailsDark {
+	position: absolute;
+	bottom: 60px;
+	display: inline-block !important;
+	background: rgb(37, 43, 67);
+	color: white;
+
+	border-radius: 5px;
+	border-bottom-left-radius: initial;
+	border-top-left-radius: 40px;
+	border-bottom-right-radius: 40px;
+	padding: 20px;
+	height: 130px;
+}
+.myContactDetailsLight > a:hover,
+.myContactDetailsDark > a:hover {
+	text-decoration: underline;
+}
+div[id="myContactDetails"] a{
+	display: flex;
+	text-decoration: none;
+	font-size: small;
+	color: inherit;
+	margin-bottom: 15px;
+}
+div[id="myContactDetails"] a > i{
+	font-size: 1.5em;
+	margin-right: 3px;
+}
+div[id="myContactDetails"] a:last-child i{
+	color: rgb(24, 143, 247);
 }
 /*----- The End -----*/
