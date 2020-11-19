@@ -7,9 +7,6 @@
 	// Remember to fix these
 
 // !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!----------------------------*/
-
-alert("checking if js is working");4
-document.addEventListener("DOMContentLoaded", function() {
 	
 	const darkModeLinkTag = document.getElementById("darkModeLinkTag");
 	const toggler = document.getElementById("toggler");
@@ -18,18 +15,8 @@ document.addEventListener("DOMContentLoaded", function() {
 
 	// Darkmode function
 	// This function toggles the darkmode button
-	// function darkmode() {
-	// 	if (darkModeLinkTag.getAttribute("href") === "") {
-	// 		darkModeLinkTag.setAttribute("href", darkmodePath);
-	// 	} else {
-	// 		darkModeLinkTag.setAttribute("href", "");
-	// 	}
-	// 	toggler.classList.toggle("darkmode");
-	// }
-	// toggler.onclick = darkmode;
-	// document.getElementById("toggler").addEventListener("click", darkmode);
-
-	toggler.onclick = function(){
+	function darkmode() {
+		toggler.style.background = 'red';
 		if (darkModeLinkTag.getAttribute("href") === "") {
 			darkModeLinkTag.setAttribute("href", darkmodePath);
 		} else {
@@ -37,6 +24,18 @@ document.addEventListener("DOMContentLoaded", function() {
 		}
 		toggler.classList.toggle("darkmode");
 	}
+	toggler.onclick = darkmode;
+	// document.getElementById("toggler").addEventListener("click", darkmode);
+
+	// toggler.onclick = function(){
+	// 	toggler.style.background = 'red';
+	// 	if (darkModeLinkTag.getAttribute("href") === "") {
+	// 		darkModeLinkTag.setAttribute("href", darkmodePath);
+	// 	} else {
+	// 		darkModeLinkTag.setAttribute("href", "");
+	// 	}
+	// 	toggler.classList.toggle("darkmode");
+	// }
 
 
 
@@ -52,4 +51,4 @@ document.addEventListener("DOMContentLoaded", function() {
 		}
 	};
 	document.getElementById("myContact").addEventListener("click", myContact);
-});
+	
