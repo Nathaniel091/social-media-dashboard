@@ -8,33 +8,48 @@
 
 // !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!----------------------------*/
 
-const darkModeLinkTag = document.getElementById("darkModeLinkTag");
-const toggler = document.getElementById("toggler");
-const darkmodePath = "css/darkmode.css";
+alert("checking if js is working");4
+document.addEventListener("DOMContentLoaded", function() {
+	
+	const darkModeLinkTag = document.getElementById("darkModeLinkTag");
+	const toggler = document.getElementById("toggler");
+	const darkmodePath = "css/darkmode.css";
 
 
-// Darkmode function
-// This function toggles the darkmode button
-function darkmode() {
-	if (darkModeLinkTag.getAttribute("href") === "") {
-		darkModeLinkTag.setAttribute("href", darkmodePath);
-	} else {
-		darkModeLinkTag.setAttribute("href", "");
+	// Darkmode function
+	// This function toggles the darkmode button
+	// function darkmode() {
+	// 	if (darkModeLinkTag.getAttribute("href") === "") {
+	// 		darkModeLinkTag.setAttribute("href", darkmodePath);
+	// 	} else {
+	// 		darkModeLinkTag.setAttribute("href", "");
+	// 	}
+	// 	toggler.classList.toggle("darkmode");
+	// }
+	// toggler.onclick = darkmode;
+	// document.getElementById("toggler").addEventListener("click", darkmode);
+
+	toggler.onclick = function(){
+		if (darkModeLinkTag.getAttribute("href") === "") {
+			darkModeLinkTag.setAttribute("href", darkmodePath);
+		} else {
+			darkModeLinkTag.setAttribute("href", "");
+		}
+		toggler.classList.toggle("darkmode");
 	}
-	toggler.classList.toggle("darkmode");
-};
-document.getElementById("toggler").addEventListener("click", darkmode);
 
 
-// myContact function
-// This function toggles myContactDetails
-function myContact(){
-	let myContactDetails = document.getElementById("myContactDetails");
 
-	if (darkModeLinkTag.getAttribute("href") === "") {
-		myContactDetails.classList.toggle("myContactDetailsLight");
-	} else {
-		myContactDetails.classList.toggle("myContactDetailsDark");
-	}
-};
-document.getElementById("myContact").addEventListener("click", myContact);
+	// myContact function
+	// This function toggles myContactDetails
+	function myContact(){
+		let myContactDetails = document.getElementById("myContactDetails");
+
+		if (darkModeLinkTag.getAttribute("href") === "") {
+			myContactDetails.classList.toggle("myContactDetailsLight");
+		} else {
+			myContactDetails.classList.toggle("myContactDetailsDark");
+		}
+	};
+	document.getElementById("myContact").addEventListener("click", myContact);
+});
