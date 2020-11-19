@@ -22,35 +22,12 @@
 		display: block !important;
 	}
 
-
-
-
-
-	/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-----------------------------*/
-	/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-----------------------------*/
-	/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-----------------------------*/
-	/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-----------------------------*/
-	/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-----------------------------*/
-	/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-----------------------------*/
-	/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-----------------------------*/
-	/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-----------------------------*/
-	/*
-		This styling does not work in chrome mobile (for tablet)
-		Remember to fix that 
-	*/
 	/*darkMode-toggler-wrapper*/
 	div[id="darkMode-toggler-wrapper"] {
-		-webkit-border-top: thin solid rgb(0, 0, 0, 0.5);
-		   -moz-border-top: thin solid rgb(0, 0, 0, 0.5);
-		        border-top: thin solid rgb(0, 0, 0, 0.5);
-
+		border-top: thin solid rgb(0, 0, 0, 0.5);
 		padding-top: 25px;
 		justify-content: space-between;
 	}
-	/*div[id="darkMode-toggler-wrapper"] #toggler-cont #toggler{
-		background: skyblue;
-	}*/
-	/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!---------------------------*/
 	
 }
 
